@@ -9,7 +9,8 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importsNotUsedAsValues": "error",
-    "lib": ["es2017"],
+    "jsx": "react",
+    "lib": ["es2017", "dom"],
     "module": "commonjs",
     "moduleResolution": "node",
     "newLine": "lf",
@@ -20,7 +21,6 @@
     "outDir": "dist",
     "removeComments": true,
     "resolveJsonModule": true,
-    "rootDir": "src",
     "sourceMap": true,
     "strict": true,
     "target": "es6"

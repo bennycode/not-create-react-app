@@ -1,19 +1,28 @@
 {
-  "bin": {
-    "ts-node-starter": "dist/cli.js"
-  },
   "bugs": {
-    "url": "https://github.com/bennycode/ts-node-starter/issues"
+    "url": "https://github.com/bennycode/not-create-react-app/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.4.0",
+    "uuidjs": "4.2.11"
+  },
   "description": "",
   "devDependencies": {
     "@arkweid/lefthook": "0.7.7",
+    "@babel/core": "7.18.10",
+    "@babel/plugin-proposal-class-properties": "7.18.6",
+    "@babel/preset-react": "7.18.6",
+    "@babel/preset-typescript": "7.18.6",
     "@types/jest": "28.1.6",
     "@types/node": "18.6.4",
+    "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.32.0",
     "@typescript-eslint/parser": "5.32.0",
+    "babel-loader": "8.2.5",
     "cross-env": "7.0.3",
+    "css-loader": "6.7.1",
     "eslint": "8.21.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
@@ -21,13 +30,18 @@
     "eslint-plugin-typescript-sort-keys": "2.1.0",
     "eslint-plugin-unused-imports": "2.0.0",
     "generate-changelog": "1.8.0",
+    "html-webpack-plugin": "5.5.0",
     "jest": "28.1.3",
     "prettier": "2.7.1",
     "pretty-quick": "3.1.3",
     "rimraf": "3.0.2",
+    "style-loader": "3.3.1",
     "ts-jest": "28.0.7",
     "ts-node": "10.9.1",
-    "typescript": "4.7.4"
+    "typescript": "4.7.4",
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
   },
   "engines": {
     "node": ">= 10.9",
@@ -37,21 +51,21 @@
     "dist",
     "!dist/**/*.test.*"
   ],
-  "homepage": "https://www.npmjs.com/package/ts-node-starter",
+  "homepage": "https://www.npmjs.com/package/not-create-react-app",
   "keywords": [],
   "license": "UNLICENSED",
-  "main": "dist/index.js",
-  "name": "@bennycode/ts-node-starter",
+  "name": "@bennycode/not-create-react-app",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bennycode/ts-node-starter.git"
+    "url": "git+https://github.com/bennycode/not-create-react-app.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "webpack --mode=production",
     "changelog:commit": "git add CHANGELOG.md && git commit -m \"docs: updated CHANGELOG.md\"",
     "clean": "rimraf .nyc_output coverage dist",
     "debug": "node --inspect -r ts-node/register ./src/start.ts",
+    "dev": "yarn start",
     "dist": "yarn clean && yarn build",
     "fix": "yarn fix:config && yarn fix:code",
     "fix:code": "yarn lint:code --fix --quiet",
@@ -66,7 +80,7 @@
     "release:major": "generate-changelog -M -x \"chore,test\" && yarn changelog:commit && npm version major",
     "release:minor": "generate-changelog -m -x \"chore,test\" && yarn changelog:commit && npm version minor",
     "release:patch": "generate-changelog -p -x \"chore,test\" && yarn changelog:commit && npm version patch",
-    "start": "ts-node ./src/start.ts",
+    "start": "webpack serve",
     "test": "yarn test:types && yarn test:unit:coverage",
     "test:types": "tsc --noEmit",
     "test:unit": "cross-env NODE_ENV=test jest ./src --passWithNoTests",
