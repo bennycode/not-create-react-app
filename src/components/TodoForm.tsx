@@ -2,8 +2,8 @@ import React, {useState, useEffect, useRef} from 'react';
 import UUID from 'uuidjs';
 
 interface Props extends React.HTMLProps<HTMLFormElement> {
-  edit?: TodoDraft;
   addTodo: (todo: Todo) => void;
+  edit?: TodoDraft;
 }
 
 const TodoForm: React.FC<Props> = props => {

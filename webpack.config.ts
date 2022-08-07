@@ -3,11 +3,11 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 const webpackConfig: Configuration = {
   cache: {
-    type: 'filesystem',
     buildDependencies: {
       // https://webpack.js.org/blog/2020-10-10-webpack-5-release/#persistent-caching
       config: [__filename],
     },
+    type: 'filesystem',
   },
   entry: './src/index.tsx',
   mode: 'development',
@@ -32,8 +32,8 @@ const webpackConfig: Configuration = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'My React App',
       template: 'index.html',
+      title: 'My React App',
     }),
   ],
   resolve: {

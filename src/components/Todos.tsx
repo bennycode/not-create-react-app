@@ -4,9 +4,9 @@ import {RiCloseCircleLine} from 'react-icons/ri';
 import {TiEdit} from 'react-icons/ti';
 
 interface Props extends React.HTMLProps<HTMLDivElement> {
-  todos: Todo[];
   completeTodo: (id: string) => void;
   removeTodo: (id: string) => void;
+  todos: Todo[];
   updateTodo: (id: string, updateTodo: Todo) => void;
 }
 
