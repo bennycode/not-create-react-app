@@ -1,13 +1,10 @@
 import type {Configuration} from 'webpack';
+import 'webpack-dev-server';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 const webpackConfig: Configuration = {
-  cache: {
-    buildDependencies: {
-      // https://webpack.js.org/blog/2020-10-10-webpack-5-release/#persistent-caching
-      config: [__filename],
-    },
-    type: 'filesystem',
+  devServer: {
+    open: true,
   },
   entry: './src/index.tsx',
   mode: 'development',
