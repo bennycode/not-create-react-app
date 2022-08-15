@@ -58,6 +58,7 @@ const TodoForm: React.FC<Props> = props => {
           <input
             placeholder="Add a todo"
             value={input}
+            role={'textbox'}
             onChange={handleChange}
             name="text"
             className="todo-input"
