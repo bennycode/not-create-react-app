@@ -1,5 +1,5 @@
+/// <reference path="node_modules/webpack-dev-server/types/lib/Server.d.ts"/>
 import type {Configuration} from 'webpack';
-import 'webpack-dev-server';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 const webpackConfig: Configuration = {
