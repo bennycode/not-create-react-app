@@ -2,6 +2,10 @@
 
 The **not-create-react-app** project is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) which does **NOT** use [create-react-app](https://github.com/facebook/create-react-app) to show you how simple it is to setup a React project yourself.
 
+## Screenshot
+
+![Screenshot](./Screenshot.png)
+
 ## Resources
 
 This template repository is built on insights from:
