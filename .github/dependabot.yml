@@ -22,6 +22,9 @@ updates:
       - dependency-name: 'husky'
         versions:
           - '>= 5'
+      - dependency-name: 'uuidjs'
+        versions:
+          - '>= 5'
     commit-message:
       prefix: 'chore'
       include: 'scope'

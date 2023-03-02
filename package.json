@@ -6,7 +6,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "4.7.1",
-    "uuidjs": "5.0.0"
+    "uuidjs": "4.2.13"
   },
   "description": "",
   "devDependencies": {
