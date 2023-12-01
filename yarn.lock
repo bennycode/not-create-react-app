@@ -1039,10 +1039,10 @@
   resolved "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@tstv/tsconfig-common@3.3.1":
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-3.3.1.tgz#ab73b11a141d1ad289ff9f876969ea74ce147c09"
-  integrity sha512-OTf+DY0qd7AEBnm2Es1ytMxlIFzZejYJCsDk14JV1uEb2uCowaO1rZjOMaN/ak1RZY3bMz+9zmskPSDoUlL6yw==
+"@tstv/tsconfig-common@3.4.0":
+  version "3.4.0"
+  resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-3.4.0.tgz#7ea36e1ee6063ba555dbac82dea5d2b8388c635f"
+  integrity sha512-Myj+/KWmSD1P6JbNSJ01er8lFxbftMiIjnYBKT/fZ8n8Lo8rZ+SuVXgg0NrObUwYqsFEG5H7d2s17fa+M5eC9g==
 
 "@types/aria-query@^5.0.1":
   version "5.0.1"
