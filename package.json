@@ -3,7 +3,7 @@
     "url": "https://github.com/bennycode/not-create-react-app/issues"
   },
   "dependencies": {
-    "react": "18.2.0",
+    "react": "18.3.1",
     "react-dom": "18.2.0",
     "react-icons": "5.1.0",
     "uuidjs": "4.2.13"
