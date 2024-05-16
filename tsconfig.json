@@ -2,5 +2,5 @@
   "compilerOptions": {
     "outDir": "dist"
   },
-  "extends": "@tstv/tsconfig-common/tsconfig-react.json"
+  "extends": "@tstv/tsconfig-common/tsconfig-react"
 }
