@@ -16,7 +16,7 @@
     "@babel/preset-react": "7.26.3",
     "@babel/preset-typescript": "7.27.1",
     "@testing-library/react": "15.0.7",
-    "@tstv/tsconfig-common": "3.7.0",
+    "@tstv/tsconfig-common": "3.7.1",
     "@types/jest": "29.5.14",
     "@types/node": "22.13.14",
     "@types/react-dom": "18.3.1",
