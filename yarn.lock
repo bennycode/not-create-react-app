@@ -1355,10 +1355,10 @@
   resolved "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@tstv/tsconfig-common@3.7.2":
-  version "3.7.2"
-  resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-3.7.2.tgz#267e73c6031be85b558c377281a8bbe363d45018"
-  integrity sha512-Y6Ik02OLxHuXkEEXV+uScvi54lf5dWGAvcDfvrvijs8aDYyZVMnb4Uf3BeWCcjgE88DLaZwXrpQhMEudC/DBaA==
+"@tstv/tsconfig-common@3.7.3":
+  version "3.7.3"
+  resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-3.7.3.tgz#bb58cde1ec7cd25f1b279ef5a4471801e0374296"
+  integrity sha512-LDUMvK7txdyTiZ1fVmbzvawwWInb5n0RIzzXfi1Lnvg4Ho5cM/vDCFUkgPbhycnI01BC7wr8HZz76LQscXf/Gw==
 
 "@tybys/wasm-util@^0.10.0":
   version "0.10.0"
