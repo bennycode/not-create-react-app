@@ -43,7 +43,7 @@
     "typescript": "5.9.3",
     "webpack": "5.111.1",
     "webpack-cli": "7.2.3",
-    "webpack-dev-server": "6.0.0"
+    "webpack-dev-server": "6.1.0"
   },
   "engines": {
     "node": ">= 10.9",
